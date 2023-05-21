@@ -1,6 +1,6 @@
 import streamlit as st
 import webbrowser
-
+from PIL import Image
 
 # Set page configuration
 st.set_page_config(
@@ -13,9 +13,9 @@ col1, col2 = st.columns([2, 1])
 placeholder = st.empty()
 
 
-image_school = open("C:/Users/tariq computers/Desktop/portfolio/pages/school.png", "rb").read()
-image_chart = open("C:/Users/tariq computers/Desktop/portfolio/pages/chart.png", "rb").read()
-image_tailor = open("C:/Users/tariq computers/Desktop/portfolio/pages/tailor.png", "rb").read()
+image_school = Image.open("school.png")
+image_chart = Image.open("chart.png")
+image_tailor = Image.open("tailor.png")
 
 
 container.header("My Projects")
