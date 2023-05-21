@@ -13,9 +13,9 @@ col1, col2 = st.columns([2, 1])
 placeholder = st.empty()
 
 
-image_school = Image.open("school.png")
-image_chart = Image.open("chart.png")
-image_tailor = Image.open("tailor.png")
+image_school = Image.open("C:/Users/tariq computers/Desktop/portfolio/portfolio/images/School.png")
+image_chart = Image.open("C:/Users/tariq computers/Desktop/portfolio/portfolio/images/chart.png")
+image_tailor = Image.open("C:/Users/tariq computers/Desktop/portfolio/portfolio/images/tailor.png")
 
 
 container.header("My Projects")
