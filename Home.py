@@ -57,7 +57,7 @@ def main():
     image_schooladdstudent = Image.open("images/schoolstudent.png")
     image_dataanalysis = Image.open("images/dataanalysis.png")
     image_datafile = Image.open("images/datafile.png")
-    image_poster = Image.open("images/poster.png")   
+    #image_poster = Image.open("images/poster.png")   
 
 
     image_school = Image.open("images/school.png")
@@ -150,7 +150,7 @@ def main():
     
         col1.subheader("Data Partner")
         col1.markdown("Whether you seek to optimize operations, understand customer behavior, or stay ahead of the competition, I am your partner in harnessing the true power of data. Let us embark on a *collaborative endeavor* to propel your business into the realm of data-driven success.")
-        col1.image(image_poster,width=300)
+
     
     
         st.markdown("Contact me today to experience the unparalleled expertise and insights that will propel your organization towards a *prosperous* and *informed future*.")
