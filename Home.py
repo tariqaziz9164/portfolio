@@ -2,7 +2,7 @@ import streamlit as st
 import sqlite3
 from PIL import Image
 import webbrowser
-#comment
+
 def creat_table():
     conn = sqlite3.connect('portfolio.db')
     c = conn.cursor()
@@ -181,8 +181,10 @@ def main():
         col1.text("\n ")
 
         col1.subheader("School management system")
-        if col1.button("Visit Project", key = "btn_school"):
-            webbrowser.open_new_tab("https://school.streamlit.app/")
+        
+        link = '[Visite Project](https://school.streamlit.app/)'
+        col1.markdown(link,unsafe_allow_html=True)
+            
         col2.image(image_school, width=200 )    
 
         col1.text("\n ")
@@ -194,8 +196,8 @@ def main():
 
 
         col1.subheader("Tailor Shope Management system")
-        if col1.button("Visit Project",key = "btn_tailor"):
-            webbrowser.open_new_tab("https://alishop.streamlit.app/")
+        link = '[Visite Project](https://alishop.streamlit.app/)'
+        col1.markdown(link,unsafe_allow_html=True)
         col2.image(image_tailor, width=200 )
 
 
@@ -209,8 +211,9 @@ def main():
         col1.text("\n ")
         col1.text("\n ")
         col1.subheader("Data Analysis and Visualization")
-        if col1.button("Visit Project",key = "btn_analysis"):
-            webbrowser.open_new_tab("https://datavisualizatio.streamlit.app/")
+        
+        link = '[Visite Project](https://datavisualizatio.streamlit.app/)'
+        col1.markdown(link,unsafe_allow_html=True)
         col2.image(image_chart, width=200 )
         st.write("---")
     
