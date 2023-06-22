@@ -78,9 +78,9 @@ def main():
         col2.write("\n")
         col2.write("\n")
         col2.write("\n")
-        col1.title("Welcome to the World of Data Power!")
+        col1.title("Unleashing the Potential of Data for Business Success")
         col1.markdown("**Where the *possibilities are limitless*, and success awaits those who seize it.**")
-        col1.markdown("**Unlock the Future of Business with Tariq Aziz**")
+        col1.markdown("**Unlock the Future of Business with me**")
         col1.write("\n")
     
         st.write("---")
